@@ -1,0 +1,90 @@
+
+h1{
+    padding: 0px;
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1::after{
+    content: '';
+    margin: auto;
+    background-color: #f44336;
+    display: block;
+    width: 5%;
+    height: 2px;
+    transition: 0.5s;
+}
+h1:hover::after{
+    width: 50%;
+}
+
+body{
+    text-align: center;
+    background-image: url(photos/img.jpg.png);
+    
+}
+
+
+
+
+form{
+    background: linear-gradient(to left,aqua,grey);
+     margin: 50px;
+     padding-top: 8%;
+     padding-bottom: 8%;
+     padding-left: 8%;
+     padding-right: 8%;
+    border-radius: 20px;
+    color: transparent;
+
+       
+}
+input{
+    padding: 6px;
+    border-radius: 5cqmin;
+    border: none;
+    background-color: transparent;
+    
+}
+button{
+    border-color: transparent;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.5s;
+    
+}
+button:hover{
+background-color:blueviolet;
+
+}
+li{
+    display: inline-block;
+    text-align: right;
+    padding: 20px;
+}
+
+
+li a{
+    color:wheat;
+    text-decoration: none;
+    
+
+}
+li a::after{
+    background-color: #f44336;
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+    content:'' ;
+}
+li a:hover::after{
+    width: 100%;
+    
+
+}

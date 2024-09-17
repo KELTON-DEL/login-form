@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to left,grey,aqua);
+    text-align: center;
+    background:linear-gradient
+}
+img{
+    
+    border-radius:50px;
+    width: 100px;
+    height: 100px;
+    align-content: baselines;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+li a{
+    color: blue;
+    text-decoration:none;
+
+}
+li  ::after{
+     content: '';
+     margin: auto;
+     display: block;
+     background-color: black;
+     width: 0%;
+     height: 2px;
+     transition: 0.5s;
+
+}
+li  :hover::after{
+    
+    width: 100%;
+}
+
+button{
+    border-radius: 20px;
+    background-color: greenyellow;
+    border-color: transparent;
+
+    
+}
